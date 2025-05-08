@@ -1,10 +1,10 @@
 const siteConfig = {
-  name: 'Clay',
-  shortName: 'Clay',
+  name: 'Rumah Kreatif Tangerang',
+  shortName: 'RKT',
   description: 'Clay - Personal Gatsby Theme',
   url: '/', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Travis Lord & Abdul Waqar',
+  author: 'Muhamad Farhan Mubarok 66',
   twitter: '' ,
   facebook:'',
   github:'',
