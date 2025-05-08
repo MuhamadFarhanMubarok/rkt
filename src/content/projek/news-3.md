@@ -2,7 +2,7 @@
 templateKey: blog-post
 thumbnail: /img/clay-images-16.jpg
 date: 2022-02-04T10:06:48.715Z
-title: News 3
+title: Sport
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
 ![clay-images-17](/img/clay-images-17.jpg)

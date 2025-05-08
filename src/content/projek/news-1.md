@@ -2,10 +2,10 @@
 templateKey: blog-post
 thumbnail: /img/clay-images-10.jpg
 date: 2023-03-16T04:59:59.653Z
-title: News 1
+title: Wedding
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
-![clay-images-11](/img/clay-images-11.jpg)
+![clay-images-11](/img/wedding-foto.png)
 
 ![clay-images-12](/img/clay-images-12.jpg)
 

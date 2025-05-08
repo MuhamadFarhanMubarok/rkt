@@ -37,34 +37,28 @@ const Layout = (props) => {
                 <Link to={`/`}>Home</Link>
               </li>
               <li
-                className={`nav-home  ${data.pathname.includes("/bio") ? "nav-current" : ""} `}
+                className={`nav-home  ${data.pathname.includes("/about") ? "nav-current" : ""} `}
                 role="menuitem"
               >
-                <Link to={`/bio`}>Bio</Link>
+                <Link to={`/about`}>About</Link>
               </li>
               <li
-                className={`nav-home  ${data.pathname.includes("/work") ? "nav-current" : ""} `}
+                className={`nav-home  ${data.pathname.includes("/paket") ? "nav-current" : ""} `}
                 role="menuitem"
               >
-                <Link to={`/work`}>Work</Link>
+                <Link to={`/paket`}>Paket</Link>
               </li>
               <li
-                className={`nav-home  ${data.pathname.includes("/news") ? "nav-current" : ""} `}
+                className={`nav-home  ${data.pathname.includes("/projek") ? "nav-current" : ""} `}
                 role="menuitem"
               >
-                <Link to={`/news`}>News</Link>
+                <Link to={`/projek`}>Projek</Link>
               </li>
               <li
                 className={`nav-home  ${data.pathname.includes("/contact") ? "nav-current" : ""} `}
                 role="menuitem"
               >
                 <Link to={`/contact`}>Contact</Link>
-              </li>
-              <li
-                className={`nav-home  ${data.pathname.includes("/elements") ? "nav-current" : ""} `}
-                role="menuitem"
-              >
-                <Link to={`/elements`}>Elements</Link>
               </li>
             </ul>
           </nav>
@@ -76,15 +70,15 @@ const Layout = (props) => {
           <div className="site-head-right">
             <div className="social-links">
               <Link
-                to={`https://facebook.com/${social.facebook}`}
-                title="Facebook"
+                to={`https://www.youtube.com/@rumahkreatiftangerang/${social.facebook}`}
+                title="Youtube"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                Youtube
               </Link>
               <Link
-                to={`https://instagram.com/${social.twitter}`}
+                to={`https://www.instagram.com/rumahkreatif.co.id?igsh=MXkxczByaGo2YW84ZQ==/${social.twitter}`}
                 title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -93,12 +87,12 @@ const Layout = (props) => {
               </Link>
 
               <Link
-                to={`https://github.com/lilxyzz/gatsby-clay`}
-                title="Github"
+                to={`https://www.tiktok.com/@rumahkreatiftangerang?_t=ZS-8wBFO6NN1RB&_r=1/lilxyzz/gatsby-clay`}
+                title="TikTok"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Github
+                TikTok
               </Link>
             </div>
           </div>
@@ -110,23 +104,7 @@ const Layout = (props) => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built by {""}
-        <a
-          href="https://travislord.xyz/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Travis Lord
-        </a>
-        {""} & {""}
-        <a
-          href="https://github.com/abdulwaqar844"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Abdul Waqar
-        </a>
+        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link>
       </footer>
     </div>
   );
